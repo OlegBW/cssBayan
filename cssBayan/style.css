@@ -86,7 +86,7 @@ body{
     transform: scale(0);
 }
 
-.content-wrapper__blocks-wrapper__blocks-wrapper{
+.content-wrapper__blocks-wrapper{
     color:rgb(57, 139, 254);
 }
 
@@ -101,7 +101,7 @@ body{
         max-width: 25rem;
     }
 
-    .content-wrapper__blocks-wrapper__blocks-wrapper:hover{
+    .content-wrapper__blocks-wrapper:hover{
         color: black;
     }
 }
