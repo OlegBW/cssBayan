@@ -58,10 +58,7 @@ body{
     transition-duration: 0.5s;
 }
 
-.content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__preview__icon-wrapper__icon{
-    transition-duration: 0.5s;
-    transform: rotate(45deg);
-}
+
 
 .content-wrapper__blocks-wrapper__block__image-wrapper{
     display: flex;
@@ -72,10 +69,7 @@ body{
     max-width: 0rem;
 }
 
-.content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__image-wrapper__image{
-    transition-duration: 0.5s;
-    max-width: 25rem;
-}
+
 
 .meme_checker:checked + label .content-wrapper__blocks-wrapper__block__image-wrapper__image{
     transition-duration: 0.5s;
@@ -94,6 +88,18 @@ body{
     color:rgb(57, 139, 254);
 }
 
-.content-wrapper__blocks-wrapper__blocks-wrapper:hover{
-    color: black;
+@media (hover:hover){
+    .content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__preview__icon-wrapper__icon{
+        transition-duration: 0.5s;
+        transform: rotate(45deg);
+    }
+
+    .content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__image-wrapper__image{
+        transition-duration: 0.5s;
+        max-width: 25rem;
+    }
+
+    .content-wrapper__blocks-wrapper__blocks-wrapper:hover{
+        color: black;
+    }
 }
