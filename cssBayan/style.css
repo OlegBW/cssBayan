@@ -56,9 +56,8 @@ body{
     width: 1.25rem;
     margin: 0.3rem;
     transition-duration: 0.5s;
+    transform: rotate(45deg);
 }
-
-
 
 .content-wrapper__blocks-wrapper__block__image-wrapper{
     display: flex;
@@ -69,8 +68,6 @@ body{
     max-width: 0rem;
 }
 
-
-
 .meme_checker:checked + label .content-wrapper__blocks-wrapper__block__image-wrapper__image{
     transition-duration: 0.5s;
     max-width: 25rem;
@@ -78,6 +75,11 @@ body{
 
 .meme_checker:checked + label .content-wrapper__blocks-wrapper__block__preview__header{
     color: black;
+}
+
+.meme_checker:checked + label .content-wrapper__blocks-wrapper__block__preview__icon-wrapper__icon{
+    transition-duration: 0.5s;
+    transform: rotate(90deg);
 }
 
 .meme_checker{
@@ -91,7 +93,7 @@ body{
 @media (hover:hover){
     .content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__preview__icon-wrapper__icon{
         transition-duration: 0.5s;
-        transform: rotate(45deg);
+        transform: rotate(90deg);
     }
 
     .content-wrapper__blocks-wrapper__block:hover .content-wrapper__blocks-wrapper__block__image-wrapper__image{
